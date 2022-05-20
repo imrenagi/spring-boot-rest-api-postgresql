@@ -1,5 +1,7 @@
 # spring-boot-rest-api-postgresql
 
+Disclaimer: This project is originally taken from [hendisantika/spring-boot-rest-api-postgresql](https://github.com/hendisantika/spring-boot-rest-api-postgresql).
+
 #### Plain REST API CRUD with Spring Boot and PostgreSQL.
 
 Technology stack:
@@ -10,6 +12,18 @@ Technology stack:
 * PostgreSQL database;
 * Hibernate;
 * Spring Security (as basic authentication).
+
+##### Setup Environment Variables
+
+You will need to setup some environment variables to run this application
+
+```
+BOOKS_API_DB_HOST=
+BOOKS_API_DB_PORT=
+BOOKS_API_DB_NAME=
+BOOKS_API_DB_USERNAME=
+BOOKS_API_DB_PASSWORD=
+```
 
 ##### To run this application use:
 

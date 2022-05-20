@@ -5,9 +5,9 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/book_db?createDatabaseIfNotExist=true
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://${BOOKS_API_DB_HOST}:${BOOKS_API_DB_PORT}/${BOOKS_API_DB_NAME}?createDatabaseIfNotExist=true
+    username: ${BOOKS_API_DB_USERNAME}
+    password: ${BOOKS_API_DB_PASSWORD}
   # JPA properties
   jpa:
     hibernate:
